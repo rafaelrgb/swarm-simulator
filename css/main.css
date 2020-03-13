@@ -1,0 +1,26 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+
+canvas { display:block; } /* To remove the scrollbars */
+
+body {
+	background-color: #ebe7e7
+}
+
+.parameters-form .form-control {
+  width: 50px;
+}
+
+.parameters-form #vision-distance,
+.parameters-form #safety-radius {
+  width: 100px;
+}
+
+#goal-tool-btn .fas {
+  color: #ff0000;
+}
+
+#obstacle-tool-btn .fas {
+  color: #000000;
+}
